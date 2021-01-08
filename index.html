@@ -1,0 +1,85 @@
+<p><span style="font-size: 20px;">Nmap Cheat Sheet</span></p>
+<p><br></p>
+<p>Basic Scanning Techniques</p>
+<p>Scan a Single Target</p>
+<p>nmap [target]</p>
+<p><br></p>
+<p>Scan Multiple Targets</p>
+<p>nmap [target1, target2, etc]</p>
+<p><br></p>
+<p>Scan a List of Targets</p>
+<p>nmap -iL [list.txt]</p>
+<p><br></p>
+<p>Scan a Range of Hosts</p>
+<p>nmap [range of ip addresses]</p>
+<p><br></p>
+<p>Scan an Entire Subnet</p>
+<p>nmap [ip address/cdir]</p>
+<p><br></p>
+<p>Scan Random Hosts</p>
+<p>nmap -iR [number]</p>
+<p><br></p>
+<p>Excluding Targets from a Scan</p>
+<p>nmap [targets] --exclude [targets]</p>
+<p><br></p>
+<p>Excluding Targets Using a List</p>
+<p>nmap [targets] --excludefile [list.txt]</p>
+<p><br></p>
+<p>Perform an Aggressive Scan</p>
+<p>nmap -A [target]</p>
+<p><br></p>
+<p>Scan an IPv6 Target</p>
+<p>nmap -6 [target]</p>
+<p><br></p>
+<p>Click past the jump too see the complete list...</p>
+<p><br></p>
+<p>Discovery Options</p>
+<p><br></p>
+<p>Perform a Ping Only Scan</p>
+<p>nmap -sP [target]</p>
+<p><br></p>
+<p>Don&rsquo;t Ping</p>
+<p>nmap -PN [target]</p>
+<p><br></p>
+<p>TCP SYN Ping</p>
+<p>nmap -PS [target]</p>
+<p><br></p>
+<p>TCP ACK Ping</p>
+<p>nmap -PA [target]</p>
+<p><br></p>
+<p>UDP Ping</p>
+<p>nmap -PU [target]</p>
+<p><br></p>
+<p>SCTP INIT Ping</p>
+<p>nmap -PY [target]</p>
+<p><br></p>
+<p>ICMP Echo Ping</p>
+<p>nmap -PE [target]</p>
+<p><br></p>
+<p>ICMP Timestamp Ping</p>
+<p>nmap -PP [target]</p>
+<p><br></p>
+<p>ICMP Address Mask Ping</p>
+<p>nmap -PM [target]</p>
+<p><br></p>
+<p>IP Protocol Ping</p>
+<p>nmap -PO [target]</p>
+<p><br></p>
+<p>ARP Ping</p>
+<p>nmap -PR [target]</p>
+<p><br></p>
+<p>Traceroute</p>
+<p>nmap --traceroute [target]</p>
+<p><br></p>
+<p>Force Reverse DNS Resolution</p>
+<p>nmap -R [target]</p>
+<p><br></p>
+<p>Disable Reverse DNS Resolution</p>
+<p>nmap -n [target]</p>
+<p><br></p>
+<p>Alternative DNS Lookup</p>
+<p>nmap --system-dns [target]</p>
+<p><br></p>
+<p>Manually Specify DNS Server(s)</p>
+<p>nmap --dns-servers [servers] [target]</p>
+<p><br></p>
